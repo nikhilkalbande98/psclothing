@@ -1,0 +1,16 @@
+.image-slider {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .slider-wrapper {
+    /* display: flex; */
+    transition: transform 1s ease-in-out;
+  }
+  
+  .slide {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  

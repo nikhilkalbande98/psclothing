@@ -1,0 +1,17 @@
+/* src/components/Slider.css */
+
+.slider {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .slider img {
+    width: 100%; /* Ensure images take up full width */
+    height: auto;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slider img.active {
+    transform: translateX(0);
+  }
+  
